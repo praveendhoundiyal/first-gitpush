@@ -4,6 +4,7 @@ private Integer numberInStock;
 public void updateStock(Integer justSold) {
 numberInStock = numberInStock - justSold;
 system.debug(numberInStock);
+system.debug(numberInStock);
 }
 
 public void setModelNumber(String theModelNumber) {
